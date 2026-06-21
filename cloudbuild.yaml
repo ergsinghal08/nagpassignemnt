@@ -1,0 +1,27 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    secretEnv:
+      - DOCKER_USERNAME
+      - DOCKER_TOKEN
+    args:
+      - '-c'
+      - |
+        echo "$$DOCKER_TOKEN" | docker login \
+          -u "$$DOCKER_USERNAME" \
+          --password-stdin
+
+        docker build \
+          -t gsinghal08/my-nagp-api:v2 \
+          ./api
+
+        docker push \
+          gsinghal08/my-nagp-api:v2
+
+availableSecrets:
+  secretManager:
+    - versionName: projects/150640289480/secrets/dockerhub-username/versions/latest
+      env: DOCKER_USERNAME
+
+    - versionName: projects/150640289480/secrets/dockerhub-token/versions/latest
+      env: DOCKER_TOKEN
