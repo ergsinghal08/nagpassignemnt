@@ -1,15 +1,16 @@
 # nagpassignemnt
 
 ## Project Overview
+
 This project demonstrates deployment of a multi-tier application on Google Kubernetes Engine (GKE) with the following components:
 
-•	Service/API Tier (Node.js API)
-•	PostgreSQL Database Tier
-•	Kubernetes Secrets
-•	Persistent Volume Claim (PVC)
-•	Horizontal Pod Autoscaler (HPA)
-•	Ingress for external access
-•	FinOps optimizations using resource requests and limits
+- Service/API Tier (Node.js API)
+- PostgreSQL Database Tier
+- Kubernetes Secrets
+- Persistent Volume Claim (PVC)
+- Horizontal Pod Autoscaler (HPA)
+- Ingress for external access
+- FinOps optimizations using resource requests and limits
 
 ## Repository
  ### GitHub Repository:
