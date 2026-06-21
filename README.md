@@ -21,8 +21,8 @@ This project demonstrates deployment of a multi-tier application on Google Kuber
  [Docker Hub repo link](https://hub.docker.com/repository/docker/gsinghal08/my-nagp-api/)
 
  ### Docker Image
-gsinghal08/my-nagp-api:v1
-gsinghal08/my-nagp-api:v2
+- gsinghal08/my-nagp-api:v1
+- gsinghal08/my-nagp-api:v2
 
 ## Service Api URL
 
@@ -33,7 +33,14 @@ Ingress URL
 This endpoint retrieves employee records stored in PostgreSQL.
 
 ## Screen Recording
-[Recording Link](https://nagarro-my.sharepoint.com/:f:/p/gaurav_singhal01/IgAl0ojn4KT1R411i2JCh4X_AfsYL3BpKLiPytCivVOyK74?e=vridyx)
+Recording Link [Watch the Demo](https://nagarro-my.sharepoint.com/:f:/p/gaurav_singhal01/IgAl0ojn4KT1R411i2JCh4X_AfsYL3BpKLiPytCivVOyK74?e=vridyx)
+
+The recording demostrate
+- Show all objects deployed and running.
+- Show an API call retrieving records from database.
+- Kill API microservice pod and show it regenerates.
+- Kill database pod and show it regenerates and keeps old data.
+- Demonstration of self-healing, persistence and FinOps considerations
 
 
 
