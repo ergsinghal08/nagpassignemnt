@@ -12,6 +12,8 @@ This project demonstrates deployment of a multi-tier application on Google Kuber
 - Ingress for external access
 - FinOps optimizations using resource requests and limits
 
+![Architecture Diagram](image-1.png)
+
 ## Repository
  ### GitHub Repository:
  [Repo Link](https://github.com/ergsinghal08/nagpassignemnt)
