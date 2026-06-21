@@ -13,7 +13,7 @@ This project demonstrates deployment of a multi-tier application on Google Kuber
 - FinOps optimizations using resource requests and limits
 
 ## Architecture Diagram
-![Architecture Diagram](image-2.png)
+(image-2.png)
 
 ## Repository
  ### GitHub Repository:
